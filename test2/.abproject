@@ -1,0 +1,28 @@
+{
+  "ProjectName": "test2",
+  "ProjectGuid": "723d924d-8127-420c-a491-1a0d42fc0c03",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.test2",
+  "DisplayName": "test2",
+  "Author": "",
+  "Description": "test2",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "FrameworkVersion": "1.7.1",
+  "Framework": "NativeScript"
+}
