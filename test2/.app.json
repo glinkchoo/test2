@@ -8,6 +8,39 @@
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "NativeScript:view",
+      "name": "formView",
+      "components": [
+        {
+          "type": "NativeScript:form",
+          "components": [
+            {
+              "type": "NativeScript:field",
+              "name": "textField",
+              "title": "Text field",
+              "inputType": "text",
+              "titlePosition": "left",
+              "placeholder": "Type here ..."
+            },
+            {
+              "type": "NativeScript:field",
+              "name": "search",
+              "title": "Search",
+              "inputType": "search",
+              "titlePosition": "left",
+              "placeholder": "Search"
+            }
+          ],
+          "name": "formViewModel",
+          "submitButton": "Confirm",
+          "cancelButton": "Cancel"
+        }
+      ],
+      "title": "Form",
+      "addToNavigation": true,
+      "icon": "bookmarks"
     }
   ],
   "dataProviders": [],
